@@ -18,7 +18,7 @@ Make sure Ollama is installed and running.
 
 ```bash
 ollama pull nomic-embed-text
-ollama pull llama3:instruct
+ollama pull llama3.2
 ```
 
 ### 2. Clone the Repository
