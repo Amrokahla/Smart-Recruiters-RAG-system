@@ -59,15 +59,29 @@ python main.py
 
 ```
 smart-recruiter/
-├── main.py
-├── resume_parser/
-│   └── parser.py
-├── embeddings/
-│   └── embedder.py
-├── db/
-│   └── chroma_client.py
-├── requirements.txt
-└── README.md
+│   main.py
+│   README.md
+│   requirements.txt
+│
+├───agents
+│       markdown_agent.py
+│       metadata_agent.py
+│
+├───data
+│   ├───markdowns   # generated CV markdown
+│   ├───metadata    # json metadata for each cv
+│   └───pdf         # original file
+│
+├───model
+│   │   model.py
+│   │   model_config.py
+│
+├───rag
+│       rag.py
+│
+└───utils
+        prepare_data.py
+        vectordb.py
 ```
 
 ## 📬 Contact
