@@ -13,25 +13,14 @@ client_settings = Settings(persist_directory="chroma_store")
 shared_client = Client(client_settings)
 
 def prepare_data():
-    if not os.path.exists("data/markdowns"):
-        parent_path = "data"
-        if not os.path.exists(parent_path):
-            print(f"Error: The directory '{parent_path}' does not exist.")
-            return
-        generate_markdowns(parent_path)
-        print("Markdown files generated successfully.")
-    else:
-        print("Markdown files already exist, skipping generation.")
+    parent_path = "data"
+    if not os.path.exists(parent_path):
+        print(f"Error: The directory '{parent_path}' does not exist.")
+        return
+    generate_markdowns(parent_path)
+    generate_metadata(parent_path)
 
-    if not os.path.exists("data/metadata"):
-        parent_path = "data"
-        if not os.path.exists(parent_path):
-            print(f"Error: The directory '{parent_path}' does not exist.")
-            return
-        generate_metadata(parent_path)
-        print("Metadata files generated successfully.")
-    else:
-        print("Metadata files already exist, skipping extraction.")
+    print("Markdown/metadata files generated successfully.")
 
 def intialize_chromadb():
     data_path = "data/markdowns"
