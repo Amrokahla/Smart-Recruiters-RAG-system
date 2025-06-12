@@ -84,6 +84,11 @@ smart-recruiter/
         vectordb.py
 ```
 
-## 📬 Contact
+## 👥 Contributors
 
-For questions or contributions, please open an issue or contact [your email].
+This project was developed by:
+
+* [Amro kahla](https://github.com/Amrokahla)
+* [Sarah Nabil](https://github.com/SarahNabilKamel)
+* [Omar Ayman](https://github.com/OmarrAymann)
+* [Alaa Khaled](https://github.com/Aalaa25)
