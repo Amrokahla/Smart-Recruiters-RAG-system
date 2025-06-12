@@ -7,7 +7,7 @@
 * 📄 **CV Parsing**: Extracts and structures information from unstructured PDF resumes.
 * 🧠 **Embedding**: Uses `nomic-embed-text` via Ollama to embed the extracted data.
 * 🔍 **Semantic Search**: Stores embeddings in ChromaDB for fast and relevant retrieval.
-* 🤖 **LLM Integration**: Leverages `llama3:instruct` for reasoning and query generation.
+* 🤖 **LLM Integration**: Leverages `llama3.2` for reasoning and query generation.
 * 📦 **Modular**: Designed for easy extensibility and integration.
 
 ## 📦 Installation & Usage
@@ -50,7 +50,7 @@ python main.py
 ## 🛠️ Tech Stack
 
 * Python
-* Ollama (with `nomic-embed-text` and `llama3:instruct`)
+* Ollama (with `nomic-embed-text` and `llama3.2`)
 * ChromaDB
 * PyMuPDF / pdfminer / pdfplumber (for PDF parsing)
 * Hugging Face Transformers (optional)
