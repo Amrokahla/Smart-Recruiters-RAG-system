@@ -14,40 +14,6 @@ Smart Recruiter is an intelligent system that parses raw PDF CVs, transforms the
 - **Smart Matching**: Advanced candidate-job matching using RAG techniques
 - **Metadata Extraction**: Intelligent extraction of skills, experience, and qualifications
 
-## 🛠️ Prerequisites
-
-Make sure Ollama is installed and running on your system.
-
-### Install Required Models
-
-```bash
-ollama pull nomic-embed-text
-ollama pull llama3.2
-```
-
-## 🚀 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Amrokahla/Smart-Recruiters-RAG-system.git
-   cd Smart-Recruiters-RAG-system
-   ```
-
-2. **Create and activate virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application**
-   ```bash
-   python app.py
-   ```
 
 ## 💻 Usage
 
@@ -133,6 +99,42 @@ This project was developed by:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+## 🛠️ Prerequisites
+
+Make sure Ollama is installed and running on your system.
+
+### Install Required Models
+
+```bash
+ollama pull nomic-embed-text
+ollama pull llama3.2
+```
+
+## 🚀 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Amrokahla/Smart-Recruiters-RAG-system.git
+   cd Smart-Recruiters-RAG-system
+   ```
+
+2. **Create and activate virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application**
+   ```bash
+   python app.py
+   ```
+
 
 ## 📝 License
 
